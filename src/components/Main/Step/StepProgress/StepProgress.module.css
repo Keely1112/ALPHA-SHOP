@@ -1,0 +1,44 @@
+.container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.phaseContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+}
+
+.phaseContainer:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 2vw;
+  top: 50%;
+  height: 3px;
+  width: calc(100% - 10vw);
+  background-color: black;
+  transform: translateY(-50%);
+}
+
+.border {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: black;
+  font-size: 10px;
+  color: #fff;
+  
+}
+
+.title {
+  letter-spacing: 1px;
+  padding-left: 5px;
+}
+

@@ -1,0 +1,14 @@
+.next {
+  width: 45%;
+  display: flex;
+  justify-content: end;
+}
+
+hr {
+  margin: 0;
+  margin-bottom: 25px;
+  width: 45%;
+  border: none;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.2);
+}

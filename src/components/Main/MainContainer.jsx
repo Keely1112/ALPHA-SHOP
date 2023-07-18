@@ -1,12 +1,15 @@
 import Step from "./Step/StepForm/Step";
+import './MainContainer.css'
 
 export default function MainContainer() {
   return (
-    <>
-      <div>
+    <div className="main-container">
+      <div className="step">
         <Step />
       </div>
-      
-    </>
+      <div className="cart">
+        {/* <Cart /> */}
+      </div>
+    </div>
   )
 }

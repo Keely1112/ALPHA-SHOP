@@ -1,7 +1,10 @@
+import styles from './StepOne.module.css'
+import stylesThree from './StepThree.module.css'
+
 export default function StepThree() {
   return (
     <>
-      <form data-phase="credit-card">
+      <form className={styles.formOne} data-phase="credit-card">
         <h3>付款資訊</h3>
         <section>
           <div>

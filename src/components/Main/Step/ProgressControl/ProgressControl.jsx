@@ -1,9 +1,13 @@
+import styles from './ProgressControl.module.css'
+import rightArrow from '@/assets/icons/right-arrow.svg'
+
 export default function ProgressControl() {
   return (
     <>
-      <section className="button-group" data-phase="address">
-        <button className="next">
-          下一步
+    <hr />
+      <section className={styles.next} data-phase="address">
+        <button>
+          下一步  <img src={rightArrow} alt="rightArrow" />
         </button>
       </section>
       {/* <section className="button-group" data-phase="shipping">

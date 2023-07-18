@@ -3,3 +3,39 @@
   padding: 1rem 10rem;
 }
 
+input {
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+input , select {
+  padding: 12px 10px;
+}
+
+select {
+  color: grey;
+  appearance: none;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select:focus {
+  color: #000;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  color: #fff;
+  background-color: #F67599;
+  border-radius: 5px;
+  width: 10rem;
+  height: 3rem;
+}
+

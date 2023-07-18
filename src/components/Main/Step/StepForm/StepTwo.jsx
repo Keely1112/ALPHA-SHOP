@@ -1,7 +1,10 @@
+import styles from './StepOne.module.css'
+import stylesTwo from './StepTwo.module.css'
+
 export default function StepTwo() {
   return (
     <>
-      <form data-phase="shipping">
+      <form className={styles.formOne} data-phase="shipping">
         <h3>運送方式</h3>
         <section>
           <label data-price={0}>
