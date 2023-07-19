@@ -1,8 +1,8 @@
 import StepProgress from '../StepProgress/StepProgress'
-import StepOne from './StepOne'
+// import StepOne from './StepOne'
 import ProgressControl from '../ProgressControl/ProgressControl'
 // import StepTwo from './StepTwo'
-// import StepThree from './StepThree'
+import StepThree from './StepThree'
 
  export default function Step() {
   return (
@@ -13,9 +13,9 @@ import ProgressControl from '../ProgressControl/ProgressControl'
               <StepProgress />
             </section>
             <section className="form-container">
-              <StepOne />
+              {/* <StepOne /> */}
               {/* <StepTwo /> */}
-              {/* <StepThree /> */}
+              <StepThree />
             </section>
             <section className="progress-control-container">
               <ProgressControl />

@@ -4,6 +4,12 @@
   justify-content: end;
 }
 
+.back {
+  width: 45%;
+  display: flex;
+  ;
+}
+
 hr {
   margin: 0;
   margin-bottom: 25px;
@@ -11,4 +17,11 @@ hr {
   border: none;
   height: 1px;
   background: rgba(128, 128, 128, 0.2);
+}
+
+.buttonTwo {
+  color: #fff;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
 }

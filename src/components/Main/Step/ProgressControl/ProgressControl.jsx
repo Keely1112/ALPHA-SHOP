@@ -10,10 +10,12 @@ export default function ProgressControl() {
           下一步  <img src={rightArrow} alt="rightArrow" />
         </button>
       </section>
-      {/* <section className="button-group" data-phase="shipping">
-        <button className="prev">
-          上一步
+       <section className={styles.back} data-phase="shipping">
+        <button className={styles.buttonTwo}>
+          <img src={rightArrow} alt="rightArrow" style={{transform: 'rotate(180deg'}}/> 上一步 
         </button>
+      </section>
+        {/*
         <button className="next">
           下一步
           <object

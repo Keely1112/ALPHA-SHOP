@@ -14,10 +14,7 @@ input , select {
 
 select {
   color: grey;
-  appearance: none;
   border-radius: 5px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
 select:focus {
