@@ -9,7 +9,7 @@ export default function StepThree() {
           <h3>付款資訊</h3>
           <section>
             <div>
-              <div>
+                <div>
                 <div className={styles.inputLabel}>持卡人姓名</div>
                 <input className={stylesThree.groupFirst}
                 type="text" placeholder="John Doe" />
