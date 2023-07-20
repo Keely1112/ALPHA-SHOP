@@ -1,7 +1,8 @@
 # ALPHA-SHOP
 此專案為課程作業
 
-src/assets/photo
+專案照片
+![image](https://raw.githubusercontent.com/Keely1112/ALPHA-SHOP/main/src/assets/photo/%E6%88%AA%E5%9C%96%202023-07-20%20%E4%B8%8B%E5%8D%8811.51.33.png)
 
 ### install
 
