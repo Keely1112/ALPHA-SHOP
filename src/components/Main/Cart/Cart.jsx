@@ -53,7 +53,7 @@ export default function Cart() {
       </section>
       <section className={style.total}>
         <div className={style.text}>小計</div>
-        <div className={style.price}>$1998</div>
+        <div className={style.price}>$300</div>
       </section>
     </section>
 )}
