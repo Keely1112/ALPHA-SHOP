@@ -1,11 +1,11 @@
 .next {
-  width: 45%;
+  width: 85%;
   display: flex;
   justify-content: end;
 }
 
 .back {
-  width: 45%;
+  width: 85%;
   display: flex;
   ;
 }
@@ -13,7 +13,7 @@
 hr {
   margin: 0;
   margin-bottom: 25px;
-  width: 45%;
+  width: 85%;
   border: none;
   height: 1px;
   background: rgba(128, 128, 128, 0.2);

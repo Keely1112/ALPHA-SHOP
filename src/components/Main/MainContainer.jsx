@@ -1,4 +1,5 @@
 import Step from "./Step/StepForm/Step";
+import Cart from "./Cart/Cart";
 import './MainContainer.css'
 
 export default function MainContainer() {
@@ -8,7 +9,7 @@ export default function MainContainer() {
         <Step />
       </div>
       <div className="cart">
-        {/* <Cart /> */}
+        <Cart />
       </div>
     </div>
   )

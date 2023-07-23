@@ -1,3 +1,4 @@
+import './StepStyle.css'
 import StepProgress from '../StepProgress/StepProgress'
 import StepOne from './StepOne'
 import ProgressControl from '../ProgressControl/ProgressControl'
