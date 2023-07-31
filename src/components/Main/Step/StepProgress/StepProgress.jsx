@@ -1,6 +1,6 @@
 import styles from './StepProgress.module.css'
 
-export default function StepProgress() {
+export default function StepProgress({step}) {
   const phases = [
     { phase: "address", title: "寄送地址" },
     { phase: "shipping", title: "運送方式" },
@@ -19,7 +19,9 @@ export default function StepProgress() {
           {phases.map((phase, index) => (
             <span data-phase={phase.phase} key={index} className={styles.phaseContainer}>
               <span>
-                <span className={styles.border}>{index + 1}</span>
+                <span className={index + 1 < step ? styles.border : styles.border}>
+                  {index + 1 < step ? "✔" : index + 1}
+                </span>
               </span>
               <span className={styles.title}>{phase.title}</span>
             </span>
