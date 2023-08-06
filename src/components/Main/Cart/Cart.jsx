@@ -1,25 +1,11 @@
 import style from './Cart.module.css'
 import minus from '@/assets/icons/minus.svg'
 import plus from '@/assets/icons/plus.svg'
-import { useState } from 'react'
- 
-const cartData = [{
-    id: '1',
-    name: '貓咪罐罐',
-    img: 'https://picsum.photos/300/300?text=1',
-    price: 100,
-    quantity: 1,
-  },{
-    id: '2',
-    name: '貓咪干干',
-    img: 'https://picsum.photos/300/300?text=2',
-    price: 200,
-    quantity: 1,
-  }]
-
+import { useCart } from './CartContext'
 
 export default function Cart() {
-  const [cart, setCart] = useState(cartData)
+  const {cart, setCart} = useCart()
+
   const handlePlusQuentity= (id) => {
     setCart(cart.map(item => {
       if(item.id === id) {
